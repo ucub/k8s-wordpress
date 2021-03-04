@@ -42,7 +42,7 @@ for wordpress :
 kubectl create -f pvc-wordpress.yaml
 ```
 check using ```kubectl get pvc```
-#### 7 After that deploy the mysql firt
+#### 7 After that deploy the mysql first
 ```sh
 kubectl create -f mysql-deployment.yaml
 ```
