@@ -1,6 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
+- wordpress-namespace.yaml
 - secret.yaml
 - pv-wordpress-mysql.yaml
 - pvc-mysql.yaml
