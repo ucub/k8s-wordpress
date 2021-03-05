@@ -19,7 +19,7 @@ check with ```kubectl get secret```
 #### 5. Create persistent volume
 This script to bind/mount $PATH of you use to datastore on host like ```/mnt/wordpress``` and ```/mnt/mysql```
 
-Deploy PV mysql fisrt
+Deploy PV mysql first
 ```sh
 kubectl create -f pv-mysql.yaml
 ```
